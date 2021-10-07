@@ -1,12 +1,14 @@
 ﻿using System;
+using bootcamp.Solutions;
 
-namespace bootcamp
+namespace bootcamp.Solutions
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            var lab5 = new Lab5();
+            lab5.Problem5_17();
         }
     }
 }
